@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  .booking_section {
+    display: inline-block;
+    width: 80%;
+    margin: 3% 6%;
+    padding: 25px;
+    border: 1px solid #cdcdcd;
+}
+  .calendar-container {
+    float: left;
+    width: 50%;
+    align-items: center;
+  }
+  .time_section {
+    float: left;
+    width: 40%;
+    margin-top: 80px;
+    padding: 0px 50px;
+}
+  .month-year {
+    display: inline;
+    margin: 20px 0;
+    font-size: 24px;
+  }
+  .weekdays {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .weeks {
+    width: 100%
+  }
+  .week {
+    display: flex;
+    justify-content: space-between;
+  }
+  .day {
+    width: calc(100% / 7);
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #cdcdcd;
+    border-radius: 64%;
+    margin: 10px;
+}
+.col{
+    float: left;
+}
+.col-a{
+    width: 20%;
+}
+.col-b {
+    width: 60%;
+    text-align: center;
+    font-size: 16px;    
+    padding: 18px 0px;
+}
+.col-c{
+    width: 20%;
+}
+button#nextMonth {
+    float: right;
+}
+.btn_section {
+    display: inline-block;   
+    padding: 13px 0;
+    width: 100%;
+}
+
+.today {
+    background-color: #F0F0F0; /* Yellow background or any style you prefer */
+    color: #000000; /* Text color, adjust as needed */
+  }
+  
+  .dot {
+    height: 5px;
+    width: 5px;
+    background-color: #FF0000; /* Red dot or choose your color */
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 4px; /* Adjust spacing to fit within your design */
+    vertical-align: middle; /* Center align the dot with the text */
+  }
+  .btn_section button{ 
+    font-weight: 900;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;   
+    
+  }
+  .time_section {
+   
+}
+
+  .time_section ul {
+    list-style-type: none;
+    max-height: 500px;
+    overflow-y: scroll;
+  }
+  .time_section ul {
+    padding: 0;
+    margin: 45px 0px;
+  }
+  .time_section ul li {  
+    margin: 10px 0;
+   
+}
+.time_section ul li a {
+    display: inline-block;
+    border: 1px solid #cdcdcd;
+    padding: 14px 23px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 85%;
+}
+.day:hover{
+    cursor: pointer;
+}
+.seleted_day {
+  margin-top: 20px;
+  color: #000;
+}
+.hidden_time{
+  display: none;
+}
+
+a.btn_b {
+  background-color: #0069FF;
+  color: #fff;
+  position: relative !important;
+  width: 35% !important;
+}
+
+.slider-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  margin: auto;
+  color: #000;
+}
+.slider-content {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+.slide {
+  flex: 0 0 auto;
+  width: 85%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;  
+}
+.button {
+  position: relative;  
+  background-color: #FFF;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 2;
+}
+
+.left-button {
+  left: 118px;
+  top: 50px;
+  border: 1px solid #cdcdcd;
+  border-radius: 50%;
+  width: 38px;
+}
+
+
+
